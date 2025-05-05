@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tariel: The Warrior's Duel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <h1>⚔️ Battle with Tariel ⚔️</h1>
+      <div id="status">
+        <p>❤️ Your HP: <span id="userHP">100</span></p>
+        <p>🛡️ Tariel's HP: <span id="aiHP">100</span></p>
+      </div>
+      <div id="log" class="log-box"></div>
+      <form id="moveForm">
+        <input type="text" id="playerMove" placeholder="Describe your move..." required />
+        <button type="submit">Attack!</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
